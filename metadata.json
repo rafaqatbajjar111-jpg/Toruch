@@ -1,0 +1,6 @@
+{
+  "name": "Torch",
+  "description": "A smart Torch app with seamless UPI payment integration, custom physical torch control, and high-fidelity transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

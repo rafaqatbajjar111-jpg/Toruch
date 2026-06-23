@@ -1,0 +1,76 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="2">
+        <!-- Glow background (subtle light beam behind icon) -->
+        <path
+            android:fillColor="#33FFD54F"
+            android:pathData="M54,34 L14,10 L10,10 L98,10 L94,10 Z" />
+        
+        <!-- Light Rays -->
+        <path
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M54,20 L54,10" />
+        <path
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M38,23 L29,14" />
+        <path
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M70,23 L79,14" />
+        <path
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M46,21 L41,12" />
+        <path
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M62,21 L67,12" />
+
+        <!-- Flashlight Rim (Top White Highlight) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M38,30 h32 a2,2 0 0,1 2,2 v2 h-36 v-2 a2,2 0 0,1 2,-2 Z" />
+
+        <!-- Flashlight Head -->
+        <path
+            android:fillColor="#E0E6ED"
+            android:pathData="M36,34 h36 L62,54 h-16 Z" />
+
+        <!-- Flashlight Handle -->
+        <path
+            android:fillColor="#CFD8DC"
+            android:pathData="M46,54 h16 v22 a6,6 0 0,1 -6,6 h-4 a6,6 0 0,1 -6,-6 Z" />
+
+        <!-- Flashlight Detail Lines / Grip -->
+        <path
+            android:strokeColor="#90A4AE"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M49,70 h10" />
+        <path
+            android:strokeColor="#90A4AE"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M49,74 h10" />
+
+        <!-- Switch Bezels and Button -->
+        <path
+            android:fillColor="#90A4AE"
+            android:pathData="M51,60 h6 v4 h-6 Z" />
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M52,60 h4 v3 h-4 Z" />
+    </group>
+</vector>
